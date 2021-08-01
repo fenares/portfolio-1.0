@@ -1,11 +1,10 @@
 {
   "name": "portfolio-1.0",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
